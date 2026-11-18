@@ -180,10 +180,6 @@ git push -u origin main
 
 ### **Langkah 3 – Deployment Aplikasi Menggunakan Render**
 
-[Deploy with Render | Pathway](https://images.openai.com/static-rsc-4/irLC3cP1Tidz2VqGDDOL5tDVLr2ycZGHsKGTXfBqm7Kxq0hUe9jzJ7MM1CvcxNzqPUnc196rn-vxwbFPEmD7I74JOfMynttrumk5zQIlCdrft8lhSs4B0CjCuhVLsRxPQvVMZ87mzYvPYHplar9k1bvHAHM0nU0wQZepzl_LmO0?purpose=inline)
-
-[pathway.com](https://pathway.com/developers/user-guide/deployment/render-deploy/?utm_source=chatgpt.com)
-
 1. Buka [website Render](https://render.com/?utm_source=chatgpt.com).
 2. Buat akun atau login.
 3. Hubungkan akun GitHub.
@@ -278,10 +274,6 @@ Jika berhasil, akan muncul data JSON dari server lokal.
 
 ### **Langkah 5 – Menghubungkan Server Lokal Menggunakan Cloudflare Tunnel**
 
-[Connect Your Localhost to the Internet via Cloudflare Tunnel](https://images.openai.com/static-rsc-4/3lW3lH5Y87dO6Ou89x6Y65urpHWXY9stFnIACiOm8nPPY9m9PxkaTHfM0hIxydn7XvB4Lfi0uaUYWro9whL7t00tODScbeiAj8vAY5oMbLUiy1WHhJ9eiAZY80hsnjOpFBuSH8Q3Huh5p3WphXnBmGnLAusHb696CCcV9h4ba3w?purpose=inline)
-
-[blog.hemant.lol](https://blog.hemant.lol/cloudflare?utm_source=chatgpt.com)
-
 Cloudflare Tunnel digunakan agar layanan API lokal dapat diakses melalui koneksi HTTPS tanpa membuka port inbound pada router.
 
 1. Instal `cloudflared` sesuai sistem operasi melalui [panduan instalasi Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/downloads/?utm_source=chatgpt.com).
@@ -307,11 +299,7 @@ https://random-name.trycloudflare.com/api/local-data
 
 7\. Jika respons JSON berhasil ditampilkan, berarti layanan lokal sudah dapat diakses melalui tunnel.
 
-**Catatan keamanan:** Quick Tunnel ditujukan untuk pengujian, URL bersifat sementara, dan siapa pun yang mengetahui URL dapat mengakses layanan tersebut. Jangan gunakan data sensitif atau database produksi.&#x20;
-
-[image](https://www.google.com/s2/favicons?domain=https://developers.cloudflare.com\&sz=32)
-
-Cloudflare Docs+1
+**Catatan keamanan:** Quick Tunnel ditujukan untuk pengujian, URL bersifat sementara, dan siapa pun yang mengetahui URL dapat mengakses layanan tersebut. Jangan gunakan data sensitif atau database produksi.
 
 
 
